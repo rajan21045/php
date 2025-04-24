@@ -1,3 +1,7 @@
+<!-- 
+    Question: Create a PHP program in a single file that takes a number via GET method 
+    and displays its multiplication table from 1 to 10.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
