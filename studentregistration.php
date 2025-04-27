@@ -32,15 +32,17 @@
             $fp = fopen($filename, "r") or die("Unable to open file!");
             echo "<h2>Student Details:</h2>";
             echo "<table border='1'>";
-            echo "<tr><th>Name</th><th>Roll No</th><th>Age</th><th>Gender</th><th>Email</th><th>Phone</th><th>Address</th></tr>";
-
+            echo "<tr><th>S.No</th><th>Name</th><th>Roll No</th><th>Age</th><th>Gender</th><th>Email</th><th>Phone</th><th>Address</th></tr>";
+            $sno =0;
             while (!feof($fp)) {
                 $str = fgets($fp);
                 $str = trim($str); // remove newline characters
                 if ($str != "") {
                     $arr = explode(",", $str);
-                    if (count($arr) >= 7) {
+                    if (count($arr) >= 8) {
+                        $sno++;
                         echo "<tr>
+                            <td>$sno</td>
                             <td>$arr[0]</td>
                             <td>$arr[1]</td>
                             <td>$arr[2]</td>
@@ -48,6 +50,7 @@
                             <td>$arr[4]</td>
                             <td>$arr[5]</td>
                             <td>$arr[6]</td>
+                            <td>$arr[7]</td>
                         </tr>";
                     }
                 }
