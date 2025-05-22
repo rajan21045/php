@@ -13,10 +13,11 @@
 <body>
 
 <form method="get" action="">
-    <label for="num1">Number 1:</label>
+    
+    <label for="num1">Number 1: </label>
     <input type="number" name="num1" id="num1" required><br><br>
 
-    <label for="num2">Number 2:</label>
+    <label for="num2">Number 2: </label>
     <input type="number" name="num2" id="num2" required><br><br>
 
     <label for="operator">Operator:</label>
@@ -30,6 +31,7 @@
 
     <input type="submit" name="btn1" value="Calculate">
     &nbsp;&nbsp;
+    
     <input type="reset" name="btn2" value="Cancel">
 </form>
 
@@ -44,12 +46,15 @@ if (isset($_GET["num1"]) && isset($_GET["num2"]) && isset($_GET["operator"])) {
         case "+":
             $result = $n1 + $n2;
             break;
+            
         case "-":
             $result = $n1 - $n2;
             break;
+            
         case "*":
             $result = $n1 * $n2;
             break;
+            
         case "/":
             if ($n2 != 0) {
                 $result = $n1 / $n2;
@@ -58,9 +63,11 @@ if (isset($_GET["num1"]) && isset($_GET["num2"]) && isset($_GET["operator"])) {
                 exit;
             }
             break;
+            
         default:
             echo "<p style='color:red;'>Invalid operator selected.</p>";
             exit;
+            
     }
 
     echo "<h3>Result of $n1 $op $n2 = $result</h3>";
