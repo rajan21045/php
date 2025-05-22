@@ -5,14 +5,17 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Converter</title>
 </head>
+
 <body>
 
 <form action="" method="get">
+    
     <label for="temp">Enter a Temperature:</label>
     <input type="number" name="temp" id="temp" required><br><br>
 
@@ -34,12 +37,18 @@ if (isset($_GET["temp"]) && isset($_GET["unit"])) {
     if ($unit == "Celsius") {
         $result = ($temp * 9/5) + 32;
         echo "<p>$temp &deg;C is equal to $result &deg;F</p>";
-    } else if ($unit == "Fahrenheit") {
+    } 
+    
+    else if ($unit == "Fahrenheit") {
         $result = ($temp - 32) * 5/9;
         echo "<p>$temp &deg;F is equal to $result &deg;C</p>";
-    } else {
+    } 
+    
+    else {
         echo "<p>Invalid unit selected.</p>";
     }
+    
+    
 }
 ?>
 
