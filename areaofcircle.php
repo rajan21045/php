@@ -20,11 +20,15 @@
 
 <?php
 if (isset($_POST["radius"])) {
+    
     $radius = $_POST["radius"];
     $area = pi() * pow($radius, 2);  // Formula for area of a circle: A = π * r²
     echo "<h3>The area of the circle is: $area</h3>";
+    
 } else {
+
     echo "Please provide a radius.";
+    
 }
 ?>
 
