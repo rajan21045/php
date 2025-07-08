@@ -16,7 +16,7 @@
 <body>
 
 <form action="" method="get">
-    
+
     <label for="length">Length:</label>
     <input type="number" name="length" id="length" required><br><br>
 
