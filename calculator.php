@@ -11,7 +11,7 @@
     <title>Simple Calculator</title>
 </head>
 <body>
-
+ 
 <form method="get" action="">
     
     <label for="num1">Number 1: </label>
