@@ -10,7 +10,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
     header("Location: cookie_system.php");
     exit();
     
-}
+} 
 
 // Handle form submission (login)
 if (isset($_POST["username"]) && isset($_POST["password"])) {
