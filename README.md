@@ -23,7 +23,7 @@ php path/to/script.php
 ```
 3.	For web examples, use PHP’s built-in server:
 php -S localhost:8000 -t public/
-# then open http://localhost:8000
+then open http://localhost:8000
 
 🙋 How to contribute (if you want others to help)
 	1.	Fork the repo
