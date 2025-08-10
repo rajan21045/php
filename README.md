@@ -36,13 +36,16 @@ then open http://localhost:8000
 	•	Local notes in resources/ (books, links, tutorials)
 
 ## 🎯 Goals & roadmap
-	•	Short-term:
+
+1. Short-term:
    Understand PHP syntax, arrays, functions, OOP basics
    Learn working with forms, sessions, cookies
-	•	Mid-term:
+
+2. Mid-term:
    CRUD app with PDO and prepared statements
    Simple MVC pattern exploration
-	•	Long-term:
+
+3. Long-term:
    Build a small portfolio project (blog, task manager)
    Learn Composer & dependency management
 
