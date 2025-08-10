@@ -25,17 +25,17 @@ php path/to/script.php
 php -S localhost:8000 -t public/
 then open http://localhost:8000
 
-🙋 How to contribute (if you want others to help)
+# 🙋 How to contribute (if you want others to help)
 	1.	Fork the repo
 	2.	Create branch feat/your-thing
 	3.	Add code + README.md in the relevant folder
 	4.	Open a PR with description of what you added and why
 
-📚 Resources I use
+# 📚 Resources I use
 	•	Official PHP docs (php.net) — keep as my primary reference
 	•	Local notes in resources/ (books, links, tutorials)
 
-🎯 Goals & roadmap
+# 🎯 Goals & roadmap
 	•	Short-term:
    Understand PHP syntax, arrays, functions, OOP basics
    Learn working with forms, sessions, cookies
@@ -46,8 +46,7 @@ then open http://localhost:8000
    Build a small portfolio project (blog, task manager)
    Learn Composer & dependency management
 
-🪪 License
-
+# 🪪 License
 This repo is for personal learning. Use code freely but please add attribution if you copy large parts.
 
 
