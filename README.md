@@ -4,6 +4,11 @@ A personal learning repository for PHP — code snippets, exercises, mini-projec
 I'll push whatever I learn about PHP here so I can refer back, show progress, and build a portfolio.
 
 ---
+## 🆎 What is PHP?
+- **Full form:** PHP stands for **"Hypertext Preprocessor"**.  
+- **History:** Originally, in 1994, PHP stood for **"Personal Home Page"** when it was created by Rasmus Lerdorf. As it evolved into a powerful server-side scripting language, the name became a recursive acronym: **PHP: Hypertext Preprocessor**.
+
+---
 
 ## 📌 What this repo is for
 - A place to store PHP examples, small projects, exercises, and notes.
