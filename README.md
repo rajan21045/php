@@ -38,16 +38,16 @@ then open http://localhost:8000
 ## 🎯 Goals & roadmap
 
 1. Short-term:
-   Understand PHP syntax, arrays, functions, OOP basics
-   Learn working with forms, sessions, cookies
+   - Understand PHP syntax, arrays, functions, OOP basics
+   - Learn working with forms, sessions, cookies
 
 2. Mid-term:
-   CRUD app with PDO and prepared statements
-   Simple MVC pattern exploration
+   - CRUD app with PDO and prepared statements
+   - Simple MVC pattern exploration
 
 3. Long-term:
-   Build a small portfolio project (blog, task manager)
-   Learn Composer & dependency management
+   - Build a small portfolio project (blog, task manager)
+   - Learn Composer & dependency management
 
 ## 🪪 License
 This repo is for personal learning. Use code freely but please add attribution if you copy large parts.
