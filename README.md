@@ -14,7 +14,7 @@ I'll push whatever I learn about PHP here so I can refer back, show progress, an
 - A place to store PHP examples, small projects, exercises, and notes.
 - Learn-by-doing: each folder contains a short description and runnable code.
 - Track progress with a simple learning log.
-
+    
 ---
 
 ## 🚀 Getting started (quick)
