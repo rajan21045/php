@@ -1,5 +1,5 @@
 # PHP: Hypertext Preprocessor
-
+ 
 A personal learning repository for PHP — code snippets, exercises, mini-projects, notes, and resources.  
 I'll push whatever I learn about PHP here so I can refer back, show progress, and build a portfolio.
 
