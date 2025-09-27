@@ -4,7 +4,7 @@ $a = array(
     "age" => 30,
     "city" => "Kathmandu"
 );
-
+ 
 
 $b = array(
     "age" => 30,
