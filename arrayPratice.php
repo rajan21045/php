@@ -13,7 +13,7 @@ echo "$arr[9] is the last element of the array.<br>";
 
 foreach($arr as $value) {
     echo "$value is an element of the array.<br>";
-}
+} 
 // And if you use the array_push() function, you can add a new item.
 array_push($arr, 11);
 echo "After adding an element, the array is: .<br>"; 
