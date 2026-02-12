@@ -1,7 +1,7 @@
 <?php
 // The pi() function returns the value of PI:
 echo (pi());
-
+ 
 // The min() and max() functions can be used to find the lowest or highest value in a list of arguments:
 echo(min(11, 13, 56, 988, 0));
 echo(max(11, 13, 56, 988, 0));
