@@ -8,7 +8,7 @@ Syntax
 while (condition) {
   //code to be executed repeatedly as long as condition is true
 }
-
+ 
 Tip: The condition is checked at the beginning of each iteration, which means that if the condition is initially false, the code block will not run even once.
 */
 
@@ -36,7 +36,7 @@ while($i<6){
 
 // Example
 // Skip, and move to the next iteration if $i is 3:
-
+ 
 $j = 0;
 while ($j < 6) {
   $j++;
