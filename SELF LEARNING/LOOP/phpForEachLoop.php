@@ -11,7 +11,7 @@ $colors = array("red", "green", "blue", "yellow");
 foreach($colors as $value){
     echo "$value <br>";
 }
-
+ 
 /*
 Explanation: For each loop iteration, the value of the current array element is assigned to the variable $value. The iteration continues until it reaches the last array element.
 
