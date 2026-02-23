@@ -1,7 +1,7 @@
 <?php
 // You can create arrays by using the array() function:
 $arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-
+            
 // The var_dump() function returns the data type and the value:
 var_dump($arr);
 
